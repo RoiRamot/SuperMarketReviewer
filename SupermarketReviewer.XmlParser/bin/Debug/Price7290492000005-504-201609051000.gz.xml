@@ -1,0 +1,124 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290492000005</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>504</StoreId>
+  <BikoretNo>0</BikoretNo>
+  <DllVerNo>9.4.0.21</DllVerNo>
+  <Items Count="6">
+    <Item>
+      <PriceUpdateDate>2016-03-03 11:15:11</PriceUpdateDate>
+      <ItemCode>5908234807714</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>וופל ריזוטו ריטו חלב</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>וופל ריזוטו ריטו חלב לבן 125 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>125.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.90</ItemPrice>
+      <UnitOfMeasurePrice>9.5200</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>32731</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2016-05-09 11:15:15</PriceUpdateDate>
+      <ItemCode>7290000453798</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>שמרים אקטביים 500 גר</ItemName>
+      <ManufacturerName>פאקא תעשיות בע"מ</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שמרים אקטביים 500 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>3.3800</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>33192</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2016-06-17 08:11:06</PriceUpdateDate>
+      <ItemCode>7290106667266</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>דוריטוס חמוץ חריף 18</ItemName>
+      <ManufacturerName>שטראוס פריטוליי</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>דוריטוס חמוץ חריף 185 גרם</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>185.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.30</ItemPrice>
+      <UnitOfMeasurePrice>6.1081</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>33175</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2016-07-12 11:11:30</PriceUpdateDate>
+      <ItemCode>7290015220880</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פחם מהגוני בשקית 2 ק</ItemName>
+      <ManufacturerName>ג'לו השקעות בע"מ</ManufacturerName>
+      <ManufactureCountry>דרום אפריקה</ManufactureCountry>
+      <ManufacturerItemDescription>פחם מהגוני בשקית 2 קג</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>2.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.80</ItemPrice>
+      <UnitOfMeasurePrice>7.4000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>33465</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2016-08-10 06:15:04</PriceUpdateDate>
+      <ItemCode>7290106724990</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>טורטית לבנה 40 גרם</ItemName>
+      <ManufacturerName>שטראוס</ManufacturerName>
+      <ManufactureCountry>ישראל</ManufactureCountry>
+      <ManufacturerItemDescription>טורטית לבנה 40 גרם</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>40.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>14.7500</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>33740</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2016-08-10 06:15:04</PriceUpdateDate>
+      <ItemCode>7290107932745</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>טעמי לבן 40 גרם</ItemName>
+      <ManufacturerName>שטראוס</ManufacturerName>
+      <ManufactureCountry>ישראל</ManufactureCountry>
+      <ManufacturerItemDescription>טעמי לבן 40 גרם</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>40.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>14.7500</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>33741</ItemId>
+    </Item>
+  </Items>
+</Root>

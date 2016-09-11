@@ -1,0 +1,91 @@
+﻿<Window x:Class="SupermarketReviewer.XmlParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:SupermarketReviewer.Core.Controls;assembly=SupermarketReviewer.Core"
+        xmlns:models="clr-namespace:SupermarketReviewer.Core.Models;assembly=SupermarketReviewer.Core"
+        Title="MainWindow">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type models:Product}">
+            <TextBlock>
+                <Run Text="Code: " />
+                <Run Text="{Binding BarCodeNumber, Mode=OneWay}" />
+                <Run Text="Name: " />
+                <Run Text="{Binding Name, Mode=OneWay}" />
+                <Run Text="Price: " />
+                <Run Text="{Binding Price, Mode=OneWay}" />
+                <Run Text="last Update Time: " />
+                <Run Text="{Binding LastUpdatedTime, Mode=OneWay}" />
+            </TextBlock>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type models:Store}">
+            <Expander x:Name="StoreExpander"
+                      Background="Red"
+                      Header="{Binding}">
+                <Expander.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="ID: " />
+                            <Run Text="{Binding Id, Mode=OneWay}" />
+                            <Run Text="Name: " />
+                            <Run Text="{Binding Name, Mode=OneWay}" />
+                            <Run Text="Adress: " />
+                            <Run Text="{Binding Adress, Mode=OneWay}" />
+                        </TextBlock>
+                    </DataTemplate>
+                </Expander.HeaderTemplate>
+                <ListBox MaxHeight="600"
+                         ItemsSource="{Binding ProductList}" />
+            </Expander>
+            <DataTemplate.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding IsChecked, ElementName=ShowHideEmptyStores}" Value="True" />
+                        <Condition Binding="{Binding ProductList.Count}" Value="0" />
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="StoreExpander" Property="Background" Value="White" />
+                </MultiDataTrigger>
+            </DataTemplate.Triggers>
+
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type models:Brand}">
+            <Expander Header="{Binding}">
+                <Expander.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock DockPanel.Dock="Top">
+                            <Run Text="ID: " />
+                            <Run Text="{Binding Id, Mode=OneWay}" />
+                            <Run Text="Name: " />
+                            <Run Text="{Binding Name, Mode=OneWay}" />
+                        </TextBlock>
+                    </DataTemplate>
+                </Expander.HeaderTemplate>
+                <ListBox x:Name="StoreList"
+                         ItemsSource="{Binding StoreList}" />
+            </Expander>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid Columns="1">
+            <Button Click="DownloadButton_OnClick"
+                    Content="Download All Files" />
+            <Button Click="UnzipButton_OnClick"
+                    Content="Unzip All Files" />
+            <Button Click="ParseButton_OnClick"
+                    Content="Parse" />
+            <Button Click="Normalize_Button_OnClick"
+                    Content="Normalize" />
+            <Button Click="SaveToFile_Button_OnClick"
+                    Content="Save To File" />
+            <Button Click="ReadFromFile_Button_OnClick"
+                    Content="Read from file" />
+            <Button Click="UploadToDB_Button_OnClick"
+                    Content="Save To DB" />
+        </UniformGrid>
+        <controls:BusyIndicator x:Name="BusyIndicator">
+            <ListBox x:Name="ProductListBox"
+                     MaxHeight="600"
+                     HorizontalContentAlignment="Stretch"
+                     ScrollViewer.CanContentScroll="False" />
+        </controls:BusyIndicator>
+    </DockPanel>
+</Window>
