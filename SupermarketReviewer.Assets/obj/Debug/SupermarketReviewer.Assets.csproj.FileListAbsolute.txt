@@ -1,0 +1,9 @@
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\bin\Debug\SupermarketReviewer.Assets.exe.config
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\bin\Debug\SupermarketReviewer.Assets.exe
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\bin\Debug\SupermarketReviewer.Assets.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\App.g.cs
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\SupermarketReviewer.Assets_MarkupCompile.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\SupermarketReviewer.Assets.Properties.Resources.resources
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\SupermarketReviewer.Assets.csproj.GenerateResource.Cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\SupermarketReviewer.Assets.exe
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Assets\obj\Debug\SupermarketReviewer.Assets.pdb
