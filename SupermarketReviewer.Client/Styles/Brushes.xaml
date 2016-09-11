@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  Base Brushes  -->
+    <SolidColorBrush x:Key="BaseForegroundBrush"
+                     Color="White" />
+    <SolidColorBrush x:Key="BaseBorderBrush"
+                     Color="CornflowerBlue" />
+    <SolidColorBrush x:Key="BaseElementBackgroundBrush"
+                     Opacity="0.2"
+                     Color="White" />
+
+
+    <!--  Window Brushes  -->
+    <SolidColorBrush x:Key="MainWindowBackgroundBrush"
+                     Color="#FF343434" />
+
+    <!--<LinearGradientBrush x:Key="MainWindowBackgroundBrush" StartPoint="0.991,0.072" EndPoint="-0.001,1.002">
+        <GradientStop Offset="0.305" Color="#FF003B76" />
+        <GradientStop Offset="0.981" Color="White" />
+        <GradientStop Color="#FF001D3A" />
+    </LinearGradientBrush>-->
+
+    <!--  Button Brushes  -->
+    <SolidColorBrush x:Key="IconButtonBackgroundBrush"
+                     Color="#FF5282D8" />
+    <SolidColorBrush x:Key="IconButtonMouseOverBrush"
+                     Color="LightBlue" />
+    <SolidColorBrush x:Key="IconButtonPressedBrush"
+                     Color="LightBlue" />
+    <SolidColorBrush x:Key="RemoveButtonBackgrounddBrush"
+                     Color="Red" />
+    <SolidColorBrush x:Key="RemoveButtonMouseOverBrush"
+                     Color="#FFFF6767" />
+
+    <!--  ListBox Brushes  -->
+
+    <LinearGradientBrush x:Key="ListBoxItemSelectedBackgroundBrush" StartPoint="1,0.5" EndPoint="0,0.5">
+        <GradientStop Offset="0" />
+        <GradientStop Offset="1" Color="#FF0080FF" />
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="InsertButtonBackgroundBrush"
+                     Color="#FF212121" />
+
+</ResourceDictionary>

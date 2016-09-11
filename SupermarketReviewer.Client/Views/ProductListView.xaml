@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="SupermarketReviewer.Client.Views.ProductListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:client="clr-namespace:SupermarketReviewer.Client"
+             xmlns:controls="clr-namespace:SupermarketReviewer.Core.Controls;assembly=SupermarketReviewer.Core"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             d:DataContext="{d:DesignInstance Type=client:ShoppingCartViewModel}"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBox DockPanel.Dock="Top"
+                 Style="{StaticResource BaseTextBoxStyle}"
+                 HorizontalContentAlignment="Right"
+                 Padding="5 0"
+                 Text="{Binding FilterInput,
+                                UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="0"
+                Grid.Column="1"
+                Command="{Binding RefreshProductListCommand}"
+                Content="{StaticResource RefreshGeometry}"
+                Style="{StaticResource IconButtonStyle}" />
+        <controls:BusyIndicator Grid.Row="1"
+                                Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                IsBusy="{Binding IsBusy}">
+            <ListBox Margin="5 0 5 5"
+                     ItemsSource="{Binding FilteredAvailableProducts}"
+                     SelectedItem="{Binding SelectedProduct}"
+                     Style="{StaticResource BaseListBoxStyle}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Height="40" Margin="5 0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="2"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Right"
+                                       Text="{Binding Name}" />
+                            <Button Grid.Row="0"
+                                    Grid.Column="0"
+                                    Margin="0"
+                                    Command="{Binding DataContext.AddNewSelectedProductCommand,
+                                                      RelativeSource={RelativeSource Mode=FindAncestor,
+                                                                                     AncestorType={x:Type ListBox}}}"
+                                    Content="{StaticResource InsertItemGeometry}"
+                                    Padding="6"
+                                    Style="{StaticResource InsertButtonStyle}"
+                                    Visibility="{Binding IsSelected,
+                                                         Converter={StaticResource BooleanToVisibilityConverter},
+                                                         RelativeSource={RelativeSource FindAncestor,
+                                                                                        AncestorType={x:Type ListBoxItem}}}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </controls:BusyIndicator>
+    </Grid>
+</UserControl>
