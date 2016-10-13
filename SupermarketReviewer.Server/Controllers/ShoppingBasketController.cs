@@ -5,10 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Web.Http;
-using Newtonsoft.Json;
 using SupermarketReviewer.Core.Models;
 using SupermarketReviewer.Core.Models.DbModels;
 
@@ -25,7 +22,6 @@ namespace SupermarketReviewer.Server.Controllers
                 try
                 {
                     var brands = db.Brands;
-                    //var stores = db.Brands.SelectMany(s => s.StoreList).ToList();
                     foreach (var brand in brands)
                     {
                         var stores = brand.StoreList;
@@ -33,7 +29,7 @@ namespace SupermarketReviewer.Server.Controllers
                         {
                             var productList = store.ProductList;
                             var barcodeList = productList.Select(p => p.BarCodeNumber);
-                            var ShopingList = new List<ShoppingItem>();
+                            var shopingList = new List<ShoppingItem>();
                             bool hasAllItems=true;
                             foreach (var item in basketsProducts)
                             {
@@ -50,11 +46,14 @@ namespace SupermarketReviewer.Server.Controllers
                                 foreach (var item in basketsProducts)
                                 {
                                     var storeProduct = productList.FirstOrDefault(p => p.BarCodeNumber == item.Product.BarCodeNumber);
-                                    var price = storeProduct.Price;
-                                    basketPrice = basketPrice + (price * item.Quntity);
-                                    ShopingList.Add(new ShoppingItem(storeProduct,item.Quntity));
+                                    if (storeProduct != null)
+                                    {
+                                        var price = storeProduct.Price;
+                                        basketPrice = basketPrice + (price * item.Quntity);
+                                    }
+                                    shopingList.Add(new ShoppingItem(storeProduct,item.Quntity));
                                 }
-                                shopingBasketsList.Add(new ShoppingBasket(ShopingList, store, brand, basketPrice));
+                                shopingBasketsList.Add(new ShoppingBasket(shopingList, store, brand, basketPrice));
                             }
                         }
                    
@@ -62,10 +61,10 @@ namespace SupermarketReviewer.Server.Controllers
 
 
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
 
-                    throw;
+                    throw new Exception(e.Message);
                 }
 
 
@@ -100,21 +99,15 @@ namespace SupermarketReviewer.Server.Controllers
                 try
                 {
                     var list = db.ShoppingLists;
-                    var product = db.ShoppingLists.First().ShoppingList.First();
-                    //shoppingBasketsList.AddRange(db.ShoppingLists);
-                    foreach (var item in list)
-                    {
-                        shoppingBasketsList.Add(item);
-                    }
+                    shoppingBasketsList.AddRange(list);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
 
-                    throw;
+                    throw new Exception(e.Message);
                 }
 
 
-                var arry = shoppingBasketsList.ToArray();
                 var formatter = new JsonMediaTypeFormatter();
                 Stream stream = new MemoryStream();
                 var content = new StreamContent(stream);

@@ -1,0 +1,53 @@
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.dll.config
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core_MarkupCompile.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core_MarkupCompile.lref
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\Controls\ContentControlTemplate.baml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.g.resources
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.dll.config
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\SupermarketReviewer.Core.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\Newtonsoft.Json.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.csprojResolveAssemblyReference.cache
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core_MarkupCompile.cache
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core_MarkupCompile.lref
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\Controls\ContentControlTemplate.baml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.g.resources
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Core\obj\Debug\SupermarketReviewer.Core.pdb

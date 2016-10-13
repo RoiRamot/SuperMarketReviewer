@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -17,8 +16,8 @@ namespace SupermarketReviewer.XmlParser.ViewModels
     public class XParser
     {
 
-        private List<Brand> storeBrands = new List<Brand>();
-        private Dictionary<string, long> normalizeDictionary =new Dictionary<string, long>();
+        private List<Brand> _storeBrands = new List<Brand>();
+        private readonly Dictionary<string, long> _normalizeDictionary =new Dictionary<string, long>();
         public List<Brand> XmlScanner()
         {
             var xmlFilesList = Directory.GetFiles(@"C:\XmlFolder");
@@ -37,34 +36,17 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                     XmlParseToProductList(file);
                 }
             }
-            return storeBrands;
+            return _storeBrands;
         }
         public void SaveToFile(List<Brand> brands)
         {
-            var brandForFile = new List<Brand>();
-            foreach (var brand in brands)
-            {
-                var storeForFile = new List<Store>();
-                var stores = brand.StoreList;
-                foreach (var store in stores)
-                {
-                    if (store.ProductList.Count > 0)
-                    {
-                        storeForFile.Add(store);
-                    }
-                }
-                var brandItem = new Brand();
-                brandItem.Name = brand.Name;
-                brandItem.Id = brand.Id;
-                brandItem.StoreList = storeForFile;
-                brandForFile.Add(brandItem);
-            }
+            var brandForFile = (from brand in brands let stores = brand.StoreList let storeForFile = stores.Where(store => store.ProductList.Count > 0).ToList() select new Brand {Name = brand.Name, Id = brand.Id, StoreList = storeForFile}).ToList();
             var writer =
                 new XmlSerializer(typeof(List<Brand>));
 
             string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) +
                           "//brands.xml";
-            FileStream file = File.Create(path);
+            var file = File.Create(path);
 
             writer.Serialize(file, brandForFile);
             file.Close();
@@ -76,9 +58,9 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                     new XmlSerializer(typeof(List<Brand>));
             var file = new StreamReader(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) +
                           "//brands.xml");
-            List<Brand> brands = (List<Brand>)reader.Deserialize(file);
+            var brands = (List<Brand>)reader.Deserialize(file);
             file.Close();
-            storeBrands =new List<Brand>(brands);
+            _storeBrands =new List<Brand>(brands);
            
             return new List<Brand>(brands);
         }
@@ -93,12 +75,12 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 try
                 {
-                    var response = await client.PostAsJsonAsync("api/Brands/Postbrands", storeBrands);
+                    await client.PostAsJsonAsync("api/Brands/Postbrands", _storeBrands);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
                     
-                    throw;
+                    throw new Exception(e.Message);
                 }
 
 
@@ -123,10 +105,10 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                     }
                     foreach (var xElement in items)
                     {
-                        string name = "";
+                        var name = "";
                         double price = 0;
-                        string productIdStr = "";
-                        string dateStr = "";
+                        var productIdStr = "";
+                        var dateStr = "";
 
                         var element = xElement.Element("ItemName");
                         if (element != null)
@@ -154,59 +136,54 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                         {
                             dateStr = element.Value;
                         }
-                        //if (productId.ToString().Count()>12)
-                        //{
                             productList.Add(new Product(productId, name, price, dateStr));
-                        //}
                     }
 
                 }
                 var chainID = doc.Descendants().FirstOrDefault(x => String.Compare(x.Name.LocalName, "chainid", StringComparison.CurrentCultureIgnoreCase) == 0);
-                if (chainID != null)
+                if (chainID == null) return;
+                var chainId = double.Parse(chainID.Value);
+                XElement StoreId = doc.Descendants().FirstOrDefault(x => String.Compare(x.Name.LocalName, "storeid", StringComparison.CurrentCultureIgnoreCase) == 0);
+                if (StoreId != null)
                 {
-                    var chainId = double.Parse(chainID.Value);
-                    XElement StoreId = doc.Descendants().FirstOrDefault(x => String.Compare(x.Name.LocalName, "storeid", StringComparison.CurrentCultureIgnoreCase) == 0);
-                    if (StoreId != null)
+                    var storeId = double.Parse(StoreId.Value);
+                    var brandStores = _storeBrands.Where(s => s.Id == chainId).Select(s => s.StoreList);
+                    foreach (var stores in brandStores)
                     {
-                        var storeId = double.Parse(StoreId.Value);
-                        var brandStores = storeBrands.Where(s => s.Id == chainId).Select(s => s.StoreList);
-                        foreach (var stores in brandStores)
+                        foreach (var store in stores)
                         {
-                            foreach (var store in stores)
+                            if (store.StoreCode == storeId)
                             {
-                                if (store.StoreCode == storeId)
+                                foreach (var product in productList)
                                 {
-                                    foreach (var product in productList)
+
+                                    if (store.ProductList.Select(p => p.BarCodeNumber).Contains(product.BarCodeNumber) && (DateTime.Parse(store.ProductList.Where(p => p.BarCodeNumber == product.BarCodeNumber).Select(p => p.LastUpdatedTime).FirstOrDefault()) < DateTime.Parse(product.LastUpdatedTime)))
                                     {
-
-                                        if (store.ProductList.Select(p => p.BarCodeNumber).Contains(product.BarCodeNumber) && (DateTime.Parse(store.ProductList.Where(p => p.BarCodeNumber == product.BarCodeNumber).Select(p => p.LastUpdatedTime).FirstOrDefault()) < DateTime.Parse(product.LastUpdatedTime)))
+                                        var updatedItem = store.ProductList.FirstOrDefault(p => p.BarCodeNumber == product.BarCodeNumber);
+                                        if (updatedItem != null)
                                         {
-                                            var updatedItem = store.ProductList.FirstOrDefault(p => p.BarCodeNumber == product.BarCodeNumber);
-                                            if (updatedItem != null)
-                                            {
-                                                updatedItem.Name = product.Name;
-                                                updatedItem.LastUpdatedTime = product.LastUpdatedTime;
-                                                updatedItem.UnitType = product.UnitType;
-                                                updatedItem.Price = product.Price;
-                                            }
-
-                                        }
-                                        if (!store.ProductList.Select(p => p.BarCodeNumber).Contains(product.BarCodeNumber))
-                                        {
-                                            store.ProductList.Add(new Product(product.BarCodeNumber, product.Name, product.Price, product.LastUpdatedTime));
+                                            updatedItem.Name = product.Name;
+                                            updatedItem.LastUpdatedTime = product.LastUpdatedTime;
+                                            updatedItem.UnitType = product.UnitType;
+                                            updatedItem.Price = product.Price;
                                         }
 
                                     }
+                                    if (!store.ProductList.Select(p => p.BarCodeNumber).Contains(product.BarCodeNumber))
+                                    {
+                                        store.ProductList.Add(new Product(product.BarCodeNumber, product.Name, product.Price, product.LastUpdatedTime));
+                                    }
+
                                 }
                             }
                         }
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 
-                //throw;
+                throw new Exception(e.Message);
             }
 
         }
@@ -215,22 +192,21 @@ namespace SupermarketReviewer.XmlParser.ViewModels
             XDocument doc = XDocument.Load(filePath);
             if (doc.Root != null)
             {
-                double brandId = 0;
+                double brandId;
                 int storeId = 0;
                 string storeName = null;
                 string storeAdress = null;
-                string brandName = null;
                 var chainId = doc.Descendants().First(x => String.Compare(x.Name.LocalName,"chainid",StringComparison.CurrentCultureIgnoreCase)==0).Value;
                 double.TryParse(chainId, out brandId);
 
-                var chainName = doc.Descendants().Where(x=>String.Compare(x.Name.LocalName,"chainname",StringComparison.CurrentCultureIgnoreCase)==0).First().Value;
+                var chainName = doc.Descendants().First(x => String.Compare(x.Name.LocalName,"chainname",StringComparison.CurrentCultureIgnoreCase)==0).Value;
 
-                if (!storeBrands.Any(brand => brand.Id == brandId))
+                if (!_storeBrands.Any(brand => brand.Id == brandId))
                 {
-                    storeBrands.Add(new Brand(brandId, chainName));
+                    _storeBrands.Add(new Brand(brandId, chainName));
                 }
 
-                var localBrand = storeBrands.First(s => s.Id == brandId);
+                var localBrand = _storeBrands.First(s => s.Id == brandId);
                 IEnumerable<XElement> items;
                 items = doc.Descendants()
                         .Where(x => String.Compare(x.Name.LocalName, "branch", StringComparison.CurrentCultureIgnoreCase) == 0);
@@ -252,7 +228,7 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                     {
                         storeName = element.Value.Trim();
                     }
-                    element = item.Descendants().First(x => String.Compare(x.Name.LocalName, "address", StringComparison.CurrentCultureIgnoreCase) == 0); ;
+                    element = item.Descendants().First(x => String.Compare(x.Name.LocalName, "address", StringComparison.CurrentCultureIgnoreCase) == 0); 
                     if (element != null)
                     {
                         storeAdress = element.Value.Trim();
@@ -274,31 +250,13 @@ namespace SupermarketReviewer.XmlParser.ViewModels
 
         public List<Brand> Normalize()
         {
-            if (!normalizeDictionary.Keys.Any())
+            if (!_normalizeDictionary.Keys.Any())
             {
                 LoadNormalizeDictionary();
             }
             NormalizeByName();
-            //NormalizeByCode();
-            return storeBrands;
+            return _storeBrands;
         }
-
-        //private void NormalizeByCode()
-        //{
-        //    foreach (var brand in storeBrands)
-        //    {
-        //        foreach (var store in brand.StoreList)
-        //        {
-        //            foreach (var product in store.ProductList )
-        //            {
-        //                if (normalizeDictionary.Keys.Contains(product.BarCodeNumber))
-        //                {
-        //                    product.Name = normalizeDictionary[product.BarCodeNumber];
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
 
         private async void NormalizeByName()
         {
@@ -306,9 +264,9 @@ namespace SupermarketReviewer.XmlParser.ViewModels
             {
                 try
                 {
-                    foreach (var brand in storeBrands)
+                    foreach (var brand in _storeBrands)
                     {
-                        var stringsRemove = @" *!@#$%^&(){}\/|.-_";
+                        const string stringsRemove = @" *!@#$%^&(){}\/|.-_";
                         stringsRemove.ToCharArray();
                         foreach (var store in brand.StoreList)
                         {
@@ -316,23 +274,23 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                             {
                                 var localName = Regex.Replace(product.Name, stringsRemove, string.Empty);
                                 localName = localName.Replace(" ", string.Empty);
-                                foreach (var value in normalizeDictionary.Keys)
+                                foreach (var value in _normalizeDictionary.Keys)
                                 {
                                     var normalizelName = Regex.Replace(value, stringsRemove, string.Empty);
                                     normalizelName = normalizelName.Replace(" ", string.Empty);
                                     if (localName == normalizelName)
                                     {
-                                        product.BarCodeNumber = normalizeDictionary[value];
+                                        product.BarCodeNumber = _normalizeDictionary[value];
                                     }
                                 }
                             }
                         }
                     }
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
                     
-                    throw;
+                    throw new Exception(e.Message);
                 }
                 
             });
@@ -359,7 +317,7 @@ namespace SupermarketReviewer.XmlParser.ViewModels
                     string name = xElement.Value;
                     normalizedName = Regex.Replace(name, @" *!@#$%^&(){}", "");
                 }
-                normalizeDictionary.Add(normalizedName, code);
+                _normalizeDictionary.Add(normalizedName, code);
             }
 
         }

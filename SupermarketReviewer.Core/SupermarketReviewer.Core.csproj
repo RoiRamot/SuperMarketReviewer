@@ -43,6 +43,8 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
@@ -56,6 +58,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClasses\BaseClasses.cs" />
+    <Compile Include="BaseClasses\ServerConector.cs" />
     <Compile Include="Controls\BusyIndicator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />

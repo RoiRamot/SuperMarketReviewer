@@ -70,9 +70,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\SelectedProduct.cs" />
-    <Compile Include="View Models\BaseClasses.cs" />
-    <Compile Include="View Models\LoginViewModel.cs" />
-    <Compile Include="View Models\ServerConector.cs" />
     <Compile Include="View Models\StoreCompareResultsViewModel.cs" />
     <Compile Include="View Models\ShoppingCartViewModel.cs" />
     <Compile Include="Views\ProductListView.xaml.cs">
@@ -123,10 +120,6 @@
     <Page Include="Styles\Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Themes\Generic.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\ProductListView.xaml">
       <SubType>Designer</SubType>

@@ -1,0 +1,48 @@
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.dll.config
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.BulkInsert.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.MappingAPI.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.SqlServer.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\Newtonsoft.Json.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Core.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Net.Http.Formatting.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.WebHost.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Core.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.BulkInsert.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.MappingAPI.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.SqlServer.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\Newtonsoft.Json.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Net.Http.Formatting.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.WebHost.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.dll.config
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Server.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.BulkInsert.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.MappingAPI.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.SqlServer.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\Newtonsoft.Json.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Core.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Net.Http.Formatting.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.WebHost.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\SupermarketReviewer.Core.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.BulkInsert.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.MappingAPI.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\EntityFramework.SqlServer.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\Newtonsoft.Json.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Net.Http.Formatting.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\bin\System.Web.Http.WebHost.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.csprojResolveAssemblyReference.cache
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.Server\obj\Debug\SupermarketReviewer.Server.pdb

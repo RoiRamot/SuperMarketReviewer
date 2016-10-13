@@ -1,0 +1,97 @@
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.exe.config
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.exe
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.BulkInsert.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.MappingAPI.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Newtonsoft.Json.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Client.exe
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Net.Http.Formatting.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.WebHost.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Client.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Core.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.BulkInsert.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.MappingAPI.pdb
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Newtonsoft.Json.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Net.Http.Formatting.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.WebHost.xml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csproj.SupermarketReviewer.XmlParser.exe.config
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\MainWindow.baml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\Styles\Styles.baml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\App.baml
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\MainWindow.g.cs
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\App.g.cs
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser_Content.g.cs
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser_MarkupCompile.cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.g.resources
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.Properties.Resources.resources
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csproj.GenerateResource.Cache
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.exe
+C:\projects\קורס .net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.exe.config
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.exe
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.exe
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.BulkInsert.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.MappingAPI.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Newtonsoft.Json.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Client.exe
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Core.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Net.Http.Formatting.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.WebHost.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Client.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.Core.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.BulkInsert.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.MappingAPI.pdb
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\Newtonsoft.Json.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Net.Http.Formatting.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\System.Web.Http.WebHost.xml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csprojResolveAssemblyReference.cache
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csproj.SupermarketReviewer.XmlParser.exe.config
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\MainWindow.baml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\Styles\Styles.baml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\App.baml
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\MainWindow.g.cs
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\App.g.cs
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser_Content.g.cs
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser_MarkupCompile.cache
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.g.resources
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.Properties.Resources.resources
+C:\projects\קורס_net\SupremarketReviewer\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.csproj.GenerateResource.Cache
+C:\Users\CodeValue\Desktop\SupermarketReviewer\SupermarketReviewer.XmlParser\bin\Debug\SupermarketReviewer.XmlParser.exe.config
+C:\Users\CodeValue\Desktop\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.exe
+C:\Users\CodeValue\Desktop\SupermarketReviewer\SupermarketReviewer.XmlParser\obj\Debug\SupermarketReviewer.XmlParser.pdb

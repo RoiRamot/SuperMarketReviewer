@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Security;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
-using SupermarketReviewer.Client.Models;
 using SupermarketReviewer.Client.Views;
-using SupermarketReviewer.Client.View_Models;
+using SupermarketReviewer.Core.BaseClasses;
 using SupermarketReviewer.Core.Models;
 using SupermarketReviewer.Core.Models.DbModels;
 

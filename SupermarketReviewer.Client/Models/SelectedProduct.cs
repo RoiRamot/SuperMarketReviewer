@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SupermarketReviewer.Core.Models;
+﻿using SupermarketReviewer.Core.Models;
 
 namespace SupermarketReviewer.Client.Models
 {
